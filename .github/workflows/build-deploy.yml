@@ -1,5 +1,9 @@
 name: Deployment
-on: [push]
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
 jobs:
   build:
     concurrency: ci-${{ github.ref }}
