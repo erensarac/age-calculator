@@ -23,7 +23,7 @@ $font-family-sans-serif: Poppins, sans-serif;
 $enable-rfs: false;
 $headings-line-height: 1.14em;
 $headings-margin-bottom: 0;
-$form-label-font-size: 1rem;
+$form-label-font-size: 0.875rem;
 $form-label-margin-bottom: 0.375rem;
 $form-valid-color: $light-grey;
 $form-invalid-color: $light-red;
@@ -183,7 +183,7 @@ h1 {
    }
 
    label {
-      font-size: 1rem !important;
+      font-size: 0.875rem !important;
    }
 
    h1 {
